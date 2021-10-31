@@ -1,0 +1,552 @@
+body {
+  font-family: "Prata", serif;
+  color: #414140;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+header {
+  /* background-color: #fffbec; */
+  background-color: rgb(255, 251, 236);
+
+  padding-top: 26px;
+  padding-bottom: 70px;
+}
+
+.container {
+  width: 1250px;
+  margin: 0 auto;
+}
+
+.me-pic {
+  width: 458px;
+  height: 539px;
+  margin-left: 26px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 46px;
+
+  transition: transform 0.8s;
+}
+
+.me-pic:hover {
+  transform: scale(1.005);
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  text-align: right;
+}
+
+.navbar {
+  padding-left: 60px;
+}
+
+li {
+  font-size: 18px;
+  list-style: none;
+  width: max-content;
+  /* padding: 5px; */
+  padding-left: 100px;
+}
+
+li:hover {
+  color: #afafaf;
+  transition: all 0.5s ease;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #414140;
+}
+
+.main {
+  padding-left: 100px;
+  padding-top: 95px;
+}
+
+#interests {
+  padding-top: 40px;
+  padding-bottom: 95px;
+  /* background-color: #e0d4bd; */
+  background-color: rgb(224, 212, 189);
+}
+
+#inter {
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.fisrtblock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 35px;
+  margin-bottom: 65px;
+}
+
+.games {
+  width: 308px;
+  height: 178px;
+  text-align: center;
+  line-height: 178px;
+  background: #b7ba6b;
+  border-radius: 46px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  transition: transform 0.8s;
+}
+
+.games:hover {
+  transform: translate(475px, 80px) scale(2.6);
+}
+
+.texts {
+  width: 308px;
+  height: 178px;
+  text-align: center;
+  line-height: 178px;
+  background: #dca2b5;
+  border-radius: 46px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  transition: transform 0.8s;
+}
+
+.texts:hover {
+  transform: translate(0, 80px) scale(2.6);
+}
+
+.fashion {
+  width: 308px;
+  height: 178px;
+  text-align: center;
+  line-height: 178px;
+  background: #edd98a;
+  border-radius: 46px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  transition: transform 0.8s;
+}
+
+.fashion:hover {
+  transform: translate(-475px, 80px) scale(2.6);
+}
+
+.secondblock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 65px;
+  font-size: 35px;
+}
+
+.chess {
+  width: 308px;
+  height: 178px;
+  text-align: center;
+  line-height: 178px;
+  background: #cc645e;
+  border-radius: 46px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  transition: transform 0.8s;
+}
+
+.chess:hover {
+  transform: translate(475px, -80px) scale(2.6);
+}
+
+.design {
+  width: 308px;
+  height: 178px;
+  text-align: center;
+  line-height: 178px;
+  background: #df775a;
+  border-radius: 46px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  transition: transform 0.8s;
+}
+
+.design:hover {
+  transform: translate(0, -80px) scale(2.6);
+}
+
+.psychology {
+  width: 308px;
+  height: 178px;
+  text-align: center;
+  line-height: 178px;
+  background: #a2cedc;
+  border-radius: 46px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  transition: transform 0.8s;
+}
+
+.psychology:hover {
+  transform: translate(-475px, -80px) scale(2.6);
+}
+
+#books {
+  background-color: #e0d4bd;
+  padding-top: 26px;
+  padding-bottom: 70px;
+}
+
+#firstrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#secondrow {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#write {
+  width: 169px;
+  height: 239px;
+  border-radius: 4px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#the7habits {
+  width: 161px;
+  height: 239px;
+  border-radius: 4px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#sapiens {
+  width: 172px;
+  height: 262px;
+  border-radius: 4px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#theart {
+  width: 168px;
+  height: 262px;
+  border-radius: 4px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#g1984 {
+  width: 168px;
+  height: 262px;
+  border-radius: 4px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#harrypotter {
+  width: 177px;
+  height: 266px;
+  border-radius: 4px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#tokilla {
+  width: 175px;
+  height: 265px;
+  border-radius: 4px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#hungergames {
+  width: 179px;
+  height: 265px;
+  border-radius: 4px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#thinking {
+  width: 178px;
+  height: 245px;
+  border-radius: 4px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#animal {
+  width: 151px;
+  height: 246px;
+  border-radius: 4px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#projects {
+  padding-top: 40px;
+  padding-bottom: 95px;
+  background-color: #fffbec;
+}
+
+#project-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#project-1 {
+  width: 398px;
+  height: 203px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 16px;
+
+  transition: transform 0.4s;
+}
+
+#project-1:hover {
+  transform: scale(1.1);
+}
+
+#project-2 {
+  width: 398px;
+  height: 203px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 16px;
+
+  transition: transform 0.4s;
+}
+
+#project-2:hover {
+  transform: scale(1.1);
+}
+
+#project-3 {
+  width: 398px;
+  height: 203px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 16px;
+
+  transition: transform 0.4s;
+}
+
+#project-3:hover {
+  transform: scale(1.1);
+}
+
+#contact {
+  padding-top: 40px;
+  padding-bottom: 95px;
+  background-color: #fffbec;
+}
+footer {
+  background-color: #414140;
+  color: #fffbec;
+  text-align: center;
+  margin: 0;
+}
+
+#footer-text {
+  margin: 0;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  color: #fffbec;
+}
+
+.book-info {
+  margin: 0;
+  padding: 30px;
+}
+
+.write-info {
+  display: none;
+  position: absolute;
+  background-color: rgb(184, 98, 64);
+  width: 20%;
+  height: 520px;
+  transform: translate(211px, 160px);
+  font-family: "Courier", Courier;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border: 4px solid rgb(206, 90, 44);
+  color: rgb(255, 251, 236);
+  border-radius: 3px;
+  animation-name: myani;
+  animation-duration: 0.8s;
+}
+
+.seven-info {
+  display: none;
+  position: absolute;
+  background-color: rgb(65, 105, 150);
+  width: 20%;
+  height: 520px;
+  transform: translate(473px, 160px);
+  font-family: "Courier", Courier;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border: 4px solid rgb(180, 144, 104);
+  color: rgb(255, 251, 236);
+  border-radius: 3px;
+  animation-name: myani;
+  animation-duration: 0.8s;
+}
+
+.sapiens-info {
+  display: none;
+  position: absolute;
+  background-color: rgb(248, 248, 248);
+  width: 20%;
+  height: 520px;
+  transform: translate(747px, 160px);
+  font-family: "Courier", Courier;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border: 4px solid rgb(226, 103, 76);
+  color: rgb(26, 27, 30);
+  border-radius: 3px;
+  animation-name: myani;
+  animation-duration: 0.8s;
+}
+
+.theart-info {
+  display: none;
+  position: absolute;
+  background-color: rgb(251, 235, 190);
+  width: 20%;
+  height: 520px;
+  transform: translate(477px, 160px);
+  font-family: "Courier", Courier;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border: 4px solid rgb(104, 97, 96);
+  color: rgb(40, 42, 48);
+  border-radius: 3px;
+  animation-name: myani;
+  animation-duration: 0.8s;
+}
+
+.g1984-info {
+  display: none;
+  position: absolute;
+  background-color: rgb(236, 230, 225);
+  width: 20%;
+  height: 520px;
+  transform: translate(747px, 160px);
+  font-family: "Courier", Courier;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border: 4px solid rgb(184, 73, 64);
+  color: rgb(26, 27, 30);
+  border-radius: 3px;
+  animation-name: myani;
+  animation-duration: 0.8s;
+}
+
+.harrypotter-info {
+  display: none;
+  position: absolute;
+  background-color: rgb(79, 75, 109);
+  width: 20%;
+  height: 520px;
+  transform: translate(477px, -139px);
+  font-family: "Courier", Courier;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border: 4px solid rgb(42, 40, 53);
+  color: rgb(255, 251, 236);
+  border-radius: 3px;
+  animation-name: myani;
+  animation-duration: 0.8s;
+}
+
+.tokilla-info {
+  display: none;
+  position: absolute;
+  background-color: rgb(243, 242, 224);
+  width: 20%;
+  height: 520px;
+  transform: translate(477px, -139px);
+  font-family: "Courier", Courier;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border: 4px solid rgb(22, 21, 21);
+  color: rgb(0, 0, 0);
+  border-radius: 3px;
+  animation-name: myani;
+  animation-duration: 0.8s;
+}
+
+.hungergames-info {
+  display: none;
+  position: absolute;
+  background-color: rgb(100, 101, 105);
+  width: 20%;
+  height: 520px;
+  transform: translate(747px, -139px);
+  font-family: "Courier", Courier;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border: 4px solid rgb(35, 32, 33);
+  color: rgb(255, 255, 255);
+  border-radius: 3px;
+  animation-name: myani;
+  animation-duration: 0.8s;
+}
+
+.thinking-info {
+  display: none;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  width: 20%;
+  height: 520px;
+  transform: translate(477px, -139px);
+  font-family: "Courier", Courier;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border: 4px solid rgb(194, 161, 77);
+  color: rgb(84, 84, 84);
+  border-radius: 3px;
+  animation-name: myani;
+  animation-duration: 0.8s;
+}
+
+.animal-info {
+  display: none;
+  position: absolute;
+  background-color: rgb(40, 32, 30);
+  width: 20%;
+  height: 520px;
+  transform: translate(747px, -139px);
+  font-family: "Courier", Courier;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border: 4px solid rgb(165, 37, 49);
+  color: rgb(229, 201, 135);
+  border-radius: 3px;
+  animation-name: myani;
+  animation-duration: 0.8s;
+}
+
+.show {
+  display: block;
+}
+
+#firsttow {
+  position: relative;
+}
+
+@keyframes myani {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}

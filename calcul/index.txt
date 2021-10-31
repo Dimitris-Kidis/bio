@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Калькулятор</title>
+</head>
+<body>
+    <h1>Мой первый калькулятор</h1>
+    <div class="container">
+        <div class="inputs-block">
+            <div class="inputs-block-column">
+                <div class="names">
+                    Доход в месяц
+                </div>
+                    <div>
+                        <input type="number" class="input" placeholder="Зарплата" id="salary">
+                    </div>
+                    <div>
+                        <input type="number" class="input" placeholder="Фриланс" id="freelance" >
+                    </div>
+                    <div>
+                        <input type="number" class="input" placeholder="Доп. заработок" id="extra" >
+                    </div>
+                    <div>
+                        <input type="number" class="input" placeholder="Карманные деньги" id="pocket" >
+                    </div>
+                </div>
+            <div class="inputs-block-column">
+                <div class="names">
+                    Обязательные расходы
+                </div>
+                    <div>
+                        <input type="number" class="input" placeholder="Аренда квартиры" id="flat">
+                    </div>
+                    <div>
+                        <input type="number" class="input" placeholder="Налоги" id="taxes">
+                    </div>
+                    <div>
+                        <input type="number" class="input" placeholder="Транспорт" id="transport">
+                    </div>
+                    <div>
+                        <input type="number" class="input" placeholder="Кредит"  id="credit">
+                    </div>
+            </div>
+                <div class="inputs-block-column">
+                    <div class="names">Доступно в месяц</div>
+                    <h2><input type="number" class="total" id="availableMonth" value="0" readonly></h2>
+                    <div class="names" >Доступно в день</div>
+                    <h2><input type="number" class="total" id="availableDay" value="0" readonly></h2>
+                    <div class="names">Накопим за год</div>
+                    <h2><input type="number" class="total" id="savingsYear" value="0" readonly></h2>
+                </div>
+            </div>
+        </div>
+    <div class="bottom">
+        <div>Процент отложенных денег:</div>
+            <input type="range" min="0" max="100" value="0" name="" id="rangeRate">
+                <div><h2><span id="rangePercents">0</span>%</h2></div>
+                    <div class="names">Копим:</div>
+                    <input type="number" class="total" id="accumulation" value="0" readonly>
+                    <div class="names">Тратим:</div>
+                    <input type="number" class="total" id="spend" value="0" readonly>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
